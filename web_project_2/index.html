@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop/Project 2</title>
+    <meta name="description" content="Functional site for fictional shop" />
+    <meta name="author" content="Viviana Hernandez" />
+    <meta
+      name="keywords"
+      content="Coffee, Menu, Recipes, Reservations, Contact"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__logo">
+          <img src="./images/logo_coffee_shop.svg" alt="Coffee Shop Logo" />
+        </div>
+        <nav>
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#recipes">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#book">Book a Table</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <span class="header__span-accent">Specialty coffee</span>
+        <h1 class="header__title">in the Practicum Library</h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/background_header.svg"
+          alt="Illustrated Coffee Shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <p class="header__paragraph">Hours:</p>
+          <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+          <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Practicum
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section id="menu" class="menu">
+          <img
+            class="menu__background"
+            src="./images/background_menu.svg"
+            alt="dark blue background"
+          />
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list-item"></ul>
+              <div class="card__list-divider"></div>
+            </div>
+          </div>
+        </section>
+        <section id="recipes" class="recipes">
+          <img
+            class="recipes__background"
+            src="./images/background_recipes.svg"
+            alt="White and Peach background"
+          />
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <iframe class="recipes__iframe"></iframe>
+            <p class="recipes__video-caption"></p>
+            <iframe class="recipes__iframe"></iframe>
+            <p class="recipes__video-caption"></p>
+          </div>
+        </section>
+        <section id="book" class="reservation">
+          <img
+            class="reservation__background"
+            src="./images/background_reservation.svg"
+            alt="light blue background"
+          />
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <input class="form__fieldset" />
+            <label class="form__label"></label>
+            <button type="button" class="form__button">Book a table</button>
+            <input type="checkbox" class="form__checkbox" />
+          </form>
+        </section>
+        <section id="about" class="about">
+          <h2 class="about__title">About the cofee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi. Our main mission is keeping
+              guests cozy and energized. Besides that, we try to reduce our
+              environmental impact — so we don't sell single-use cups. But you
+              can buy one of our reusable cups!
+            </p>
+            <div class="about__circle"></div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img src="./images/practicum_logo.svg" class="footer__logo" />
+          <h3 class="footer__social-heading">Social media</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__social-link" href="#">
+                <img
+                  class="footer__social-link"
+                  src="./images/facebook_white.svg"
+                  alt="Facebook Logo"
+                />Facebook
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__social-link" href="#">
+                <img
+                  class="footer__social-link"
+                  src="./images/instagram_white.svg"
+                  alt="Instagram Logo"
+                />Instragram
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="footer__copyright">&copy; 2023 Viviana Hernandez</p>
+      </footer>
+    </div>
+  </body>
+</html>
