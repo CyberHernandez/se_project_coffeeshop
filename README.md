@@ -1,6 +1,6 @@
 # Practicum Coffee Shop
 
-This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief.
+This is the second project of the Software Engineer program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.
 
 ## Project features
 
@@ -13,4 +13,9 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+-More animations!
+-More recipe content!
+-Functional External Links
+-Javscript
+
+& cleaner code, once I get a better feel for what that actually looks like...
