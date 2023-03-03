@@ -1,3 +1,8 @@
+.form {
+  justify-content: center;
+  border-style: none;
+}
+
 .form__fieldset {
   color: #838383;
   display: flex;
@@ -25,7 +30,11 @@
   border-radius: 4px;
   width: 385px;
   margin-bottom: 32px;
-  text-indent: 20px;
+  padding: 0 20px 0;
+  border: 1px solid #838383;
+}
+.form__input::placeholder {
+  color: #838383;
 }
 .form__button {
   height: 60px;
@@ -38,6 +47,7 @@
   padding: 0;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 
 .form__button:hover {

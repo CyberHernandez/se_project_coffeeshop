@@ -194,16 +194,17 @@
           <h2 class="reservation__title">Book a table</h2>
           <form action="url(action.com)" class="form reservation__form">
             <fieldset class="form form__fieldset">
-              <label class="form form__label">Name *</label>
+              <label for="name" class="form__label">Name *</label>
               <input
                 type="text"
                 class="form form__input"
                 name="name"
                 required
                 placeholder="Name Surname"
+                id="name"
               />
 
-              <label class="form form__label">Number of persons *</label>
+              <label for="count" class="form__label">Number of persons *</label>
               <input
                 type="number"
                 class="form form__input"
@@ -212,37 +213,39 @@
                 max="8"
                 required
                 placeholder="1-8"
+                id="count"
               />
 
-              <label class="form form__label">Date & Time *</label>
+              <label for="dateTime" class="form__label">Date & Time *</label>
               <input
                 type="date"
                 class="form form__input"
                 name="dateTime"
                 required
+                id="dateTime"
               />
 
-              <label class="form form__label">Your email *</label>
+              <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
                 class="form form__input"
                 name="email"
                 required
                 placeholder="catman!@email.com"
+                id="email"
               />
             </fieldset>
+            <button type="submit" class="form form__button">
+              Book a table
+            </button>
             <fieldset class="form form__fieldset">
-              <button type="submit" class="form form__button">
-                Book a table
-              </button>
-            </fieldset>
-            <fieldset class="form form__fieldset">
-              <label class="form__label form__label_checkbox">
+              <label for="checkbox" class="form__label form__label_checkbox">
                 <input
                   type="checkbox"
                   class="form__checkbox"
                   name="remember-me"
                   required
+                  id="checkbox"
                 />
                 I agree with the terms of use
               </label>
@@ -254,10 +257,15 @@
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Practicum Library's hall. It
-              features 6 tables and free WiFi. Our main mission is keeping
-              guests cozy and energized. Besides that, we try to reduce our
-              environmental impact — so we don't sell single-use cups. But you
-              can buy one of our reusable cups!
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
             </p>
             <div class="about__circle"></div>
             <div class="about__circle about__circle_animation_blurred"></div>

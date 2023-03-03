@@ -16,8 +16,6 @@
 }
 
 .reservation__form {
-  justify-content: center;
   max-width: 385px;
   margin: 0 auto 0;
-  border-style: none;
 }

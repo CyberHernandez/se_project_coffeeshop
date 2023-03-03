@@ -21,6 +21,10 @@
   margin: 0 0 20px;
 }
 
+.footer__list {
+  padding: 0;
+}
+
 .footer__list-item {
   font-style: normal;
   list-style-type: none;
@@ -34,6 +38,8 @@
   margin-right: 10px;
   color: #fff;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .footer__social-link:hover {
   color: #c1c1c1;
