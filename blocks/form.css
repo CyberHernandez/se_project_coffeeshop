@@ -28,7 +28,7 @@
   line-height: 30px;
   height: 60px;
   border-radius: 4px;
-  width: 385px;
+  max-width: 385px;
   margin-bottom: 32px;
   padding: 0 20px 0;
   border: 1px solid #838383;

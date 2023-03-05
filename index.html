@@ -63,11 +63,9 @@
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <div class="header__footer-address">
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Practicum
-            </p>
-          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Practicum
+          </p>
         </div>
       </header>
       <main class="content">
@@ -192,12 +190,12 @@
         </section>
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="url(action.com)" class="form reservation__form">
-            <fieldset class="form form__fieldset">
+          <form action="url(drinkme.com)" class="form reservation__form">
+            <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
               <input
                 type="text"
-                class="form form__input"
+                class="form__input"
                 name="name"
                 required
                 placeholder="Name Surname"
@@ -207,7 +205,7 @@
               <label for="count" class="form__label">Number of persons *</label>
               <input
                 type="number"
-                class="form form__input"
+                class="form__input"
                 name="personCount"
                 min="1"
                 max="8"
@@ -219,7 +217,7 @@
               <label for="dateTime" class="form__label">Date & Time *</label>
               <input
                 type="date"
-                class="form form__input"
+                class="form__input"
                 name="dateTime"
                 required
                 id="dateTime"
@@ -228,17 +226,15 @@
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
-                class="form form__input"
+                class="form__input"
                 name="email"
                 required
                 placeholder="catman!@email.com"
                 id="email"
               />
             </fieldset>
-            <button type="submit" class="form form__button">
-              Book a table
-            </button>
-            <fieldset class="form form__fieldset">
+            <button type="submit" class="form__button">Book a table</button>
+            <fieldset class="form__fieldset">
               <label for="checkbox" class="form__label form__label_checkbox">
                 <input
                   type="checkbox"
